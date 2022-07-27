@@ -61,7 +61,7 @@
     height: 30%;
     margin-right: 0;
     margin-top: 5%;
-    margin-left: 49%;
+    margin-left: 40%;
 }
 
 .prologo p{
@@ -83,12 +83,9 @@
     text-decoration: none;
     color:#C6DA36;
 }
-.img{
-    display: flex;
-    flex-direction: column;
-    justify-self: end;
-    align-self: flex-end;
-    margin-right: 0;
+.log2{
+
+    margin-left: 12%;
     padding-right: 0;
     width: 30%;
 }
