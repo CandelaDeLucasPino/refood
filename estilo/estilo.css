@@ -22,7 +22,10 @@
 .catalogo h1{
     font-family: 'Kreon', serif;
     font-size: 40px;
-    margin-top: 5%;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5%;
+    margin: 0;
 }
 .catalogo2{
     display: flex;
@@ -40,30 +43,34 @@
     padding: 2% 2% 2% 2%;
 
 }
-.prologo{
+#prologo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:13% 15% 2% 15%;
-    align-items: flex-end;
+    padding:13% 15% 2% 15%;
+    align-items: center;
     
 
 }
 .prologo1{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 70%;
+    justify-content: center;
+    width: 100%;
     height: 30%;
+    margin-right: 0;
     margin-top: 5%;
+    margin-left: 49%;
 }
+
 .prologo p{
     font-family: 'Kreon', serif;
     font-size: 36px;
     text-align: center;
 }
 .btn{
+    justify-self: center;
     height: 5%;
     width: 50%;
     background-color: #0E2A18;
@@ -72,13 +79,18 @@
     font-size: 36px;
 }
 .btn a{
+    justify-self: center;
     text-decoration: none;
     color:#C6DA36;
 }
-.log2{
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    align-self: flex-end;
     margin-right: 0;
     padding-right: 0;
-    width: 40%;
+    width: 30%;
 }
 .fondo{
     display: flex;
