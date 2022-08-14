@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: #D9D9D9;
+    opacity: 0.75;
 }
 .catalogo h1{
     font-family: 'Kreon', serif;
@@ -26,6 +27,7 @@
     align-self: center;
     padding-top: 5%;
     margin: 0;
+    font-weight: 600;
 }
 .catalogo2{
     display: flex;
@@ -61,22 +63,24 @@
     height: 30%;
     margin-right: 0;
     margin-top: 5%;
-    margin-left: 40%;
+    margin-left: 49%;
 }
 
 .prologo p{
     font-family: 'Kreon', serif;
     font-size: 36px;
     text-align: center;
+    font-weight: 400;
 }
 .btn{
     justify-self: center;
     height: 5%;
-    width: 50%;
+    width: 30%;
     background-color: #0E2A18;
     color:#C6DA36;
     font-family: 'Kreon', serif;
     font-size: 36px;
+    font-weight: 400;
 }
 .btn a{
     justify-self: center;
@@ -85,7 +89,7 @@
 }
 .log2{
 
-    margin-left: 12%;
+    margin-left: 20%;
     padding-right: 0;
     width: 30%;
 }
@@ -96,6 +100,8 @@
     align-items: center;
     width: 100%;
     background-image: url(../imagenes/carne\ bien\ cruda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:5% 5% 5% 5%;
 
 }
@@ -110,6 +116,7 @@
 .titlemuestra{
     text-align: center;
     padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
 }
 .menu.navbar .navbar-expand-lg{
     background-color: #ffffff;
@@ -117,6 +124,7 @@
 a.nav-link{
     color:#0E2A18;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     letter-spacing: 0.75px;
 
@@ -146,6 +154,7 @@ a.nav-link{
 .contactus{
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color:#C6DA36;
     height: 20%;
     position: relative;
